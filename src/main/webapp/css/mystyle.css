@@ -1,0 +1,28 @@
+.quantity{
+    font-size: 36px;
+    text-align: center;
+
+}
+#minus:before{
+    content: '-';
+}
+#plus:before{
+    content: '+';
+}
+.icon:before{
+    content: ' ';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #030005;
+}
+#wrap{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
