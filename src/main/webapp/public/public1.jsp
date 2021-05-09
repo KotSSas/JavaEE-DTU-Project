@@ -27,6 +27,9 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./css/publicp/style.css">
 </head>
 <body>
 <jsp:useBean id="cart" type="com.example.demoAutorisa.Cart" scope="request"/>
@@ -51,7 +54,15 @@
                         <div class="icon" id="plus" ></div>
 
                     </a>
+
                 </div>
+                <a href="index.jsp" class="cta">
+                    <span>Go to homepage</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
             </form>
         </div>
     </div>
