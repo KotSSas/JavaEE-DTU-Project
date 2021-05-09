@@ -41,13 +41,14 @@
 					</span>
                 <div id="wrap">
                     <span class="quantity">Количество: &nbsp;</span>
-                <a href="ServletPlus">
-                    <div class="icon" id="plus" ></div>
-
-                </a>
-                    <span class="quantity">&nbsp; ${cart.quantity} &nbsp;</span>
-                    <a href="ServletMinus">
+                    <a href="PublicServlet?symbol=minus">
                         <div class="icon" id="minus"></div>
+
+                    </a>
+
+                    <span class="quantity">&nbsp; ${cart.quantity} &nbsp;</span>
+                    <a href="PublicServlet?symbol=plus">
+                        <div class="icon" id="plus" ></div>
 
                     </a>
                 </div>
